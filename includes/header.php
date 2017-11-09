@@ -35,8 +35,9 @@ if (!isset($_SESSION['sessCreated'])) {
 	// If the user is on the home page, do not show a button for the home page.
 	echo '<a href="index.php"><img border="0" alt="home" src="buttons/btn_home.png" /></a> ';
 }
+	// Some buttons display for everyone.
 ?>
-        // Some buttons display for everyone.
+        
         <a href="viewruns.php"><img border="0" alt="viewdata" src="buttons/btn_viewdata.png" /></a> 
         <a href="submitdata.php"><img border="0" alt="submitdata" src="buttons/btn_submitdata.png" /></a> 
         <a href="search.php"><img border="0" alt="search" src="buttons/btn_search.png" /></a>
