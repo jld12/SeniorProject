@@ -9,7 +9,7 @@ if (isset($_SESSION['accountID'])) {
 	
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-	$dbc = @mysqli_connect('localhost', 'PhanOnSelAlt', '24398yLo493dr2d2', 'PhantasyOnline');
+	$dbc = @mysqli_connect('localhost', 'PhanOnSelAlt', 'PASSWORD', 'PhantasyOnline');
 	
 	$trimmed = array_map('trim', $_POST);
     	$un = $em = $pw = $cpw = FALSE;
