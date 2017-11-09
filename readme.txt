@@ -8,6 +8,11 @@ LET ME KNOW IF YOU WANT A COPY OF THE ORIGINAL, UNEDITED FILES.
 
 File system contents:
   Root folder:
+  
+    POBackup.sql.gz : File for DB structure and content, 11/9/17
+    POStructureBackup.sql.qz : File for just structure of DB
+    PhantasyOnline.sql : SQL code for DB
+  
     Account.php : Account page. Has personal run information and links depending on user type.
       Admins access admin pages via this account page.
     Changepassword.php : Page for users to change their password.
