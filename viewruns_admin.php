@@ -10,7 +10,7 @@ if (isset($_SESSION['accountID']) && $_SESSION['accountTY'] == '69')  {
 	
 echo '<h1>Quest Runs</h1>';
 
-$dbc = @mysqli_connect('localhost', 'PhanOnSelDel', '24398yLo493dr2d2@t', 'PhantasyOnline');
+$dbc = @mysqli_connect('localhost', 'PhanOnSelDel', 'PASSWORD', 'PhantasyOnline');
 
 $q = "SELECT questRuns.runID AS RunNum, 
 questRuns.runEX AS Experience, 
