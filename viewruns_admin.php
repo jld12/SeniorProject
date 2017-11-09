@@ -34,7 +34,7 @@ $dq = "DELETE FROM questRuns WHERE runID = '$runNum'";
 $r = mysqli_query($dbc, $dq);
 	
 if ($r) {
-echo '<p>Run deleted successfuly.</p>';
+echo '<p>Run deleted successfully.</p>';
 } else {
 echo mysqli_error($dbc);
 echo '<p class="error" style="color:red">Something went wrong.</p>';
