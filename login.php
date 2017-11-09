@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
 	        if ($r != FALSE && mysqli_num_rows($r) == 1){
 	            
-	            // Pass the accountID, accountUN, and accountTY to the session information.
+	            // Pass the user info to the session information.
 	            $_SESSION = mysqli_fetch_array($r, MYSQLI_ASSOC);
 	            // Clear $r and close the DB connection.
 	            mysqli_free_result($r);
