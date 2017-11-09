@@ -3,6 +3,9 @@ Contained are all the php/html files for the site.
 Access them as you would any other php file, or head to
 Phantasy.Online to view the pages live.
 
+NOTE: I HAVE REPLACED ANY PASSWORDS WITH 'PASSWORD' TO KEEP MY PASSWORDS SAFE. 
+LET ME KNOW IF YOU WANT A COPY OF THE ORIGINAL, UNEDITED FILES.
+
 File system contents:
   Root folder:
     Account.php : Account page. Has personal run information and links depending on user type.
@@ -41,9 +44,7 @@ File system contents:
   Includes folder:
     Header.php : Header file for each site page. Includes most of the navigation, and includes session checks.
     Footer.php : Footer file for each page. Includes some navigation and closes code started by Header.
-    Mysqli_connect.php : Default connection file for the site. 
-      NOTE: I HAVE REPLACED THE PASSWORD WITH 'PASSWORD' TO KEEP MY PASSWORD SAFE. LET ME KNOW IF YOU WANT A
-      COPY OF THE ORIGINAL, UNEDITED FILE.
+    Mysqli_connect.php : Default connection file for the site.
   
   Guideimages folder:
     Contains the image files for the site's guides.
