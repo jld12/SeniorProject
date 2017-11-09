@@ -5,7 +5,7 @@
 $page_title = 'View Users';
 include('includes/header.php');
 
-$dbc = @mysqli_connect('localhost', 'PhanOnSelDel', '24398yLo493dr2d2@t', 'PhantasyOnline');
+$dbc = @mysqli_connect('localhost', 'PhanOnSelDel', 'PASSWORD', 'PhantasyOnline');
 
 // If delete button pressed, remove user.
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
