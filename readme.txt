@@ -9,6 +9,9 @@ LET ME KNOW IF YOU WANT A COPY OF THE ORIGINAL, UNEDITED FILES.
 File system contents:
   Root folder:
   
+    TaskTracker.xlsx : My documentation of time spent developing the website.
+    ERD.png : ERD of the site's database
+  
     POBackup.sql.gz : File for DB structure and content, 11/9/17
     POStructureBackup.sql.qz : File for just structure of DB
     PhantasyOnline.sql : SQL code for DB
