@@ -1,7 +1,7 @@
 PHANTASY ONLINE
 Contained are all the php/html files for the site. 
-Access them as you would any other php file, or head to
-Phantasy.Online to view the pages live.
+In the future, I will be returning to this project to improve and expand it,
+as well as update it for the Western release of the game.
 
 NOTE: I HAVE REPLACED ANY PASSWORDS WITH 'PASSWORD' TO KEEP MY PASSWORDS SAFE. 
 LET ME KNOW IF YOU WANT A COPY OF THE ORIGINAL, UNEDITED FILES.
